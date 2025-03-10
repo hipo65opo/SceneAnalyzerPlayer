@@ -103,6 +103,22 @@ Google Gemini APIを使用するには、APIキーが必要です。以下の方
 2. セッション開始時にAPIキーを入力
 3. 環境変数として設定（`GEMINI_API_KEY`）
 
+### Google Gemini APIキーの取得方法
+
+1. [Google AI Studio](https://makersuite.google.com/app/apikey)にアクセスします。
+2. Googleアカウントでログインします（アカウントがない場合は作成してください）。
+3. 「Get API key」または「APIキーを取得」ボタンをクリックします。
+4. 新しいAPIキーを作成する場合は「Create API key」または「APIキーを作成」をクリックします。
+5. APIキーが生成されるので、コピーして安全な場所に保存してください。
+6. このAPIキーをアプリケーションの設定に入力します。
+
+#### 注意事項
+
+- APIキーは秘密情報として扱い、公開リポジトリにコミットしないでください。
+- Google Gemini APIは一定の使用量を超えると課金が発生する場合があります。詳細は[Google AIの料金ページ](https://ai.google.dev/pricing)を確認してください。
+- 初めて使用する場合は、Google Cloud Platformでの認証が必要になる場合があります。
+- APIキーには使用制限があります。詳細は[Google AI Studioのドキュメント](https://ai.google.dev/docs)を参照してください。
+
 ## トラブルシューティング
 
 ### 動画が再生できない場合
