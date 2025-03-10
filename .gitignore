@@ -1,0 +1,56 @@
+# Python関連
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.mypy_cache/
+.pytest_cache/
+.coverage
+htmlcov/
+
+# 仮想環境
+.venv/
+venv/
+ENV/
+
+# ビルド関連
+build/
+dist/
+*.spec
+*.exe
+*.msi
+*.dll
+*.pyd
+
+# インストーラー関連
+installer/
+
+# APIキーや秘密情報
+*.pfx
+*.pem
+*.key
+*.p12
+
+# ローカル設定
+.vscode/
+.idea/
+*.code-workspace
+
+# バッチファイル（ビルド関連）
+*.bat
+
+# サンプルファイル
+sample.mp4
+
+# データベースファイル
+*.db
+*.sqlite
+*.sqlite3
+
+# ログファイル
+*.log
+
+# バックアップファイル
+*~
+*.bak 
